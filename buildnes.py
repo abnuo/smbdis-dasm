@@ -2,7 +2,7 @@ import sys
 
 def pad(d,l):
   while len(d)<l:
-    d = d+"\x00"
+    d = d+b"\x00"
   return d
 
 usage = "USAGE: buildnes.py [infile] [outfile] [chrfile] [mapper]"
